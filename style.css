@@ -224,12 +224,11 @@
 }
 /* Coupon section styles */
 .coupon-section{
-    width: 1470px;
     background-image: url("./images/Rectangle\ 9.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    margin: 150px auto;
+    margin: 150px 215px;
 }
 .coupon-content{
     text-align: center;
