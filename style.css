@@ -12,6 +12,17 @@
     border-radius: 8px;
     background: #E55473;
 }
+.section-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-desc{
+    color: #797979;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /* banner section styles */
 .banner{
     width: 100%;
@@ -40,4 +51,65 @@
 .banner-img img{
     margin-right: 150px;
     margin-top: 50px;
+}
+/* feature section styles */
+.feature-section{
+    width: 100%;
+}
+.feature-content{
+    width: 650px;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.feature-flowers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 200px;
+}
+.flower-1{
+    background-color: #F2DEE7;
+    width: 420px;
+    height: 520px;
+    border-radius: 300px 300px 0px 0px;
+}
+.flower-2{
+    background-color: #D9EFF1;
+    width: 420px;
+    height: 520px;
+    border-radius: 300px 300px 0px 0px;
+}
+.flower-3{
+    background-color: #E3EBDB;
+    width: 420px;
+    height: 520px;
+    border-radius: 300px 300px 0px 0px;
+}
+.flower-1 img{
+    margin: 92px 55px;
+}
+.flower-2 img{
+    margin: 49px 60px;
+}
+.flower-3 img{
+    margin: 116px 55px;
+}
+.feature-flowers a{
+
+}
+.flowers-title-1{
+    color: black;
+    text-align: center;
+    margin-top: -10%;
+}
+.flowers-title-2{
+    color: black;
+    text-align: center;
+}
+.flowers-title-3{
+    color: black;
+    text-align: center;
+    margin-top: -8%;
 }
