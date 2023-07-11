@@ -138,9 +138,13 @@
     margin: 70px 200px;
 }
 .bouquets-details img{
-    border-radius: 0px;
-    width: 300px;
-    height: 300px;
+    border-radius: 10px;
+    width: 320px;
+    height: 350px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.bouquets-title{
+    color: #3A553A;
 }
 .bouquets-details h4{
     color: black;
@@ -157,11 +161,43 @@
 .bouquets-details a h6{
     font-size: 18px;
     text-decoration: none;
-    color: #E55473;
+    color: #3A553A;
     margin: 14px 0px;
+    font-weight: 300;
 }
 .bouquets-btn{
     text-align: center;
     border-radius: 1px;
     padding: 17px 64px;
+    background-color: #3A553A;
+}
+/* Deal styles */
+.deal-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FCEEF1;
+    margin: 100px 0px;
+    height: 80vh;
+}
+.deal-content{
+    text-align: center;
+    width: 580px;
+    margin-top: 40px;
+}
+.deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deal-content span{
+    color: #E55473;
+}
+.deal-desc{
+    color: #797979;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 40px 0px;
 }
