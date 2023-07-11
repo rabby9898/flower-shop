@@ -201,3 +201,88 @@
     line-height: 30px;
     margin: 40px 0px;
 }
+/* Instagram section styles */
+.instagram-section{
+    margin-top: 130px;
+}
+.instagram-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 200px;
+}
+.instagram-section h1{
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.instagram-section p{
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+/* Coupon section styles */
+.coupon-section{
+    width: 1470px;
+    background-image: url("./images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin: 150px auto;
+}
+.coupon-content{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.coupon-content h1{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.coupon-content p{
+    color: #797979;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+.coupon-content input{
+    padding: 22px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+}
+.subscribe-btn{
+    border-radius: 5px;
+    padding: 20px 34px;
+    margin: 5px 14px;
+    font-size: 16px;
+}
+/* footer section styles */
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-color: #111010;
+    text-align: center;
+}
+.footer-section{
+    width: 100%;
+}
+.footer-section span{
+    color: #E55473;
+}
+.footer-section h1{
+    color: #fff;
+}
+.footer-section p{
+    color: #E7E7E7;
+    margin: 32px 0px;
+}
+.footer-section .copyright{
+    color: #707070;
+}
